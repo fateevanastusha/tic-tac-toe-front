@@ -1,0 +1,15 @@
+.button {
+    background-color: transparent;
+    border-radius: 50px;
+    border : none;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button:hover:not(.active) {
+    background-color: rgba(164, 209, 225, 0.23);
+}
